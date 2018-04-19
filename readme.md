@@ -1,3 +1,5 @@
+说明：本博客参照tuzhenyu同学的项目，原项目请访问 [https://github.com/zhenyutu/Jblog.git](https://github.com/zhenyutu/Jblog.git)
+
 # Jblog
 ## TODO
 - [x] 用户注册登录功能
