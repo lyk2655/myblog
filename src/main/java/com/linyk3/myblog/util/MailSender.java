@@ -26,7 +26,7 @@ public class MailSender implements InitializingBean {
                                         String template, Map<String, Object> model) {
         try {
             String nick = MimeUtility.encodeText("linyk3");
-            InternetAddress from = new InternetAddress(nick + "<2639621346@qq.com>");
+            InternetAddress from = new InternetAddress(nick + "<799856442@qq.com>");
             MimeMessage mimeMessage = mailSender.createMimeMessage();
             MimeMessageHelper mimeMessageHelper = new MimeMessageHelper(mimeMessage);
             String result = VelocityEngineUtils
@@ -50,7 +50,6 @@ public class MailSender implements InitializingBean {
         mailSender.setUsername("2639621346@qq.com");
         mailSender.setPassword("linyk2639");
         mailSender.setHost("smtp.qq.com");
-        //mailSender.setHost("smtp.qq.com");
         mailSender.setPort(465);
         mailSender.setProtocol("smtps");
         mailSender.setDefaultEncoding("utf8");
